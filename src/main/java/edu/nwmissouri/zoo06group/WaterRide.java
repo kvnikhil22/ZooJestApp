@@ -10,16 +10,24 @@ package edu.nwmissouri.zoo06group;
  */
 public class WaterRide extends AbstractGame {
     
-    private int players;
+    private int a;
     private double priceOfTicket;
     private String ticketType;
     
     public int getPlayers() {
-        return players;
+        return a;
     }
 
-    public void setPlayers(int players) {
-        this.players = players;
+    public void setPlayers(int a) {
+        this.a = a;
+    }
+
+    public int getA() {
+        return a;
+    }
+
+    public void setA(int a) {
+        this.a = a;
     }
 
     public double getPriceOfTicket() {

@@ -12,8 +12,8 @@ package edu.nwmissouri.zoo06group;
 public class Lion extends Animal {
 
     /**
-     * Aardvark constructor 
-     * @param name - the name of this aardvark
+     * Lion constructor 
+     * @param name - the name of this Lion
      */
     public Lion(String name) {
         super(name);
@@ -21,12 +21,47 @@ public class Lion extends Animal {
 
     @Override
     public void speak() {
-        System.out.printf("I'm %s. I'm an Aardvark!", this.name);
+        System.out.printf("I'm %s. I'm an Lion!", this.name);
     }
 
     @Override
     public void move() {
         System.out.println("When I move, I walk, walk, walk.");
+    }
+
+    double getLionAddition(double first, int second) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+   public static void Casting()
+    
+   {
+       int i=91;
+       double d=(double) i;
+       System.out.println("Casted to"+d);
+
+     
+    }
+
+    public static void Exception()
+    {
+        int a=8;
+        int i=0;
+        try{
+            int h=a/i;
+            System.out.println("h:"+h);
+
+        }catch(Exception E)
+                {
+              System.out.println("Generated Exception is"+E);
+  
+            
+        }
+    }
+    public static void main(String[] args)
+    {
+       Exception();
+       Casting();
+       
     }
 
     }   
